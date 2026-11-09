@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5cc769304c5cc32661df492b0f20fc0d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5cc769304c5cc32661df492b0f20fc0d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5cc769304c5cc32661df492b0f20fc0d = L.map(
+                "map_5cc769304c5cc32661df492b0f20fc0d",
+                {
+                    center: [18.5295, 73.8695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+
+            
+
+        
+    
+            var tile_layer_70791146eed5b380f5fc680a2f34a7a5 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Tiles \u00a9 Esri \u2014 Sources: Esri, HERE, Garmin, OpenStreetMap contributors", "detectRetina": false, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_70791146eed5b380f5fc680a2f34a7a5.addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+        
+    
+            var marker_242b058dc4e2a73d83974052769bbfd6 = L.marker(
+                [18.52814, 73.875929],
+                {}
+            ).addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+        
+    
+            var icon_a6e90089ebb47a64615b977546fdaaa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_242b058dc4e2a73d83974052769bbfd6.setIcon(icon_a6e90089ebb47a64615b977546fdaaa5);
+        
+    
+        var popup_6501ef59981bbbbf0f1b94d1c71aad17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19526a8383915fff70c12f2ff48871a1 = $(`<div id="html_19526a8383915fff70c12f2ff48871a1" style="width: 100.0%; height: 100.0%;">Alankar Chowk</div>`)[0];
+                popup_6501ef59981bbbbf0f1b94d1c71aad17.setContent(html_19526a8383915fff70c12f2ff48871a1);
+            
+        
+
+        marker_242b058dc4e2a73d83974052769bbfd6.bindPopup(popup_6501ef59981bbbbf0f1b94d1c71aad17)
+        ;
+
+        
+    
+    
+            marker_242b058dc4e2a73d83974052769bbfd6.bindTooltip(
+                `<div>
+                     Alankar Chowk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bc895be319d51706ff9b0868700631f = L.marker(
+                [18.53038, 73.87666],
+                {}
+            ).addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+        
+    
+            var icon_6264e30af02ab4fda40b903db6b756d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4bc895be319d51706ff9b0868700631f.setIcon(icon_6264e30af02ab4fda40b903db6b756d1);
+        
+    
+        var popup_faaf695325acf3521fc958c25cc6d964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d325de2a695fcf08ea4f74c0b18e422b = $(`<div id="html_d325de2a695fcf08ea4f74c0b18e422b" style="width: 100.0%; height: 100.0%;">Jehangir Hospital Chowk (landmark proxy)</div>`)[0];
+                popup_faaf695325acf3521fc958c25cc6d964.setContent(html_d325de2a695fcf08ea4f74c0b18e422b);
+            
+        
+
+        marker_4bc895be319d51706ff9b0868700631f.bindPopup(popup_faaf695325acf3521fc958c25cc6d964)
+        ;
+
+        
+    
+    
+            marker_4bc895be319d51706ff9b0868700631f.bindTooltip(
+                `<div>
+                     Jehangir Hospital Chowk (landmark proxy)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b61769b7a1a32f2277c7b85187770db0 = L.marker(
+                [18.529529, 73.862219],
+                {}
+            ).addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+        
+    
+            var icon_c120d3064847172d7fb4a80a26ff4a53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b61769b7a1a32f2277c7b85187770db0.setIcon(icon_c120d3064847172d7fb4a80a26ff4a53);
+        
+    
+        var popup_32ead36e982be2c59047eac5fc5e7524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72081968b5cea553e15488bf492e5c36 = $(`<div id="html_72081968b5cea553e15488bf492e5c36" style="width: 100.0%; height: 100.0%;">RTO Chowk (Sangam Bridge area)</div>`)[0];
+                popup_32ead36e982be2c59047eac5fc5e7524.setContent(html_72081968b5cea553e15488bf492e5c36);
+            
+        
+
+        marker_b61769b7a1a32f2277c7b85187770db0.bindPopup(popup_32ead36e982be2c59047eac5fc5e7524)
+        ;
+
+        
+    
+    
+            marker_b61769b7a1a32f2277c7b85187770db0.bindTooltip(
+                `<div>
+                     RTO Chowk (Sangam Bridge area)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f4032389e80bacfc48efd678a02a5f92 = L.rectangle(
+                [[18.52714, 73.86121899999999], [18.531380000000002, 73.87766]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+        
+    
+            rectangle_f4032389e80bacfc48efd678a02a5f92.bindTooltip(
+                `<div>
+                     Approximate study-area extent
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_5cc769304c5cc32661df492b0f20fc0d.fitBounds(
+                [[18.52714, 73.86121899999999], [18.531380000000002, 73.87766]],
+                {}
+            );
+        
+    
+            var layer_control_b9c1ddcb6edb4ca38eab7e50f1238441_layers = {
+                base_layers : {
+                    "Esri Street Map" : tile_layer_70791146eed5b380f5fc680a2f34a7a5,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_b9c1ddcb6edb4ca38eab7e50f1238441 = L.control.layers(
+                layer_control_b9c1ddcb6edb4ca38eab7e50f1238441_layers.base_layers,
+                layer_control_b9c1ddcb6edb4ca38eab7e50f1238441_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_5cc769304c5cc32661df492b0f20fc0d);
+
+        
+    
+            var measure_control_c9fe3031b3fb17ba98fdea3428e7cf5c = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_5cc769304c5cc32661df492b0f20fc0d.addControl(measure_control_c9fe3031b3fb17ba98fdea3428e7cf5c);
+
+            // Workaround for using this plugin with Leaflet>=1.8.0
+            // https://github.com/ljagis/leaflet-measure/issues/171
+            L.Control.Measure.include({
+                _setCaptureMarkerIcon: function () {
+                    // disable autopan
+                    this._captureMarker.options.autoPanOnFocus = false;
+                    // default function
+                    this._captureMarker.setIcon(
+                        L.divIcon({
+                            iconSize: this._map.getSize().multiplyBy(2)
+                        })
+                    );
+                },
+            });
+
+        
+</script>
+</html>

@@ -1,0 +1,9 @@
+Junction,Camera,Total_Intervals,Eligible_Intervals,Minimum_Coverage,Eligible_Percent
+Alankar Chowk,a2,95,95,96.2222222222222,100.0
+Alankar Chowk,a3,91,91,95.66666666666669,100.0
+Jehangir Chowk,j1,95,95,95.66666666666669,100.0
+Jehangir Chowk,j2,88,88,100.0,100.0
+Jehangir Chowk,j3,95,95,95.0,100.0
+RTO Chowk,r1,90,90,99.33333333333331,100.0
+RTO Chowk,r2,92,92,96.88888888888889,100.0
+RTO Chowk,r3,95,95,100.0,100.0

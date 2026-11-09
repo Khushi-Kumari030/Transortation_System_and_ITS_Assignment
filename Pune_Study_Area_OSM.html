@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_25465cacb2a29e1646a34013bd8c153b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_25465cacb2a29e1646a34013bd8c153b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_25465cacb2a29e1646a34013bd8c153b = L.map(
+                "map_25465cacb2a29e1646a34013bd8c153b",
+                {
+                    center: [18.5295, 73.8695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_25465cacb2a29e1646a34013bd8c153b);
+
+            
+
+        
+    
+            var tile_layer_ea258875fbf2b7955076e329fd0dfa34 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_ea258875fbf2b7955076e329fd0dfa34.addTo(map_25465cacb2a29e1646a34013bd8c153b);
+        
+    
+            var marker_2b54261bf62a5428cab6a940999ae49b = L.marker(
+                [18.52814, 73.875929],
+                {}
+            ).addTo(map_25465cacb2a29e1646a34013bd8c153b);
+        
+    
+            var icon_4a0167ce187d458592253e836c33541d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b54261bf62a5428cab6a940999ae49b.setIcon(icon_4a0167ce187d458592253e836c33541d);
+        
+    
+        var popup_5d4304b0b9ec693b3d9217101afe2f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c706bd1980a0d5657b7781f29ea3a206 = $(`<div id="html_c706bd1980a0d5657b7781f29ea3a206" style="width: 100.0%; height: 100.0%;"><b>Alankar Chowk</b></div>`)[0];
+                popup_5d4304b0b9ec693b3d9217101afe2f7c.setContent(html_c706bd1980a0d5657b7781f29ea3a206);
+            
+        
+
+        marker_2b54261bf62a5428cab6a940999ae49b.bindPopup(popup_5d4304b0b9ec693b3d9217101afe2f7c)
+        ;
+
+        
+    
+    
+            marker_2b54261bf62a5428cab6a940999ae49b.bindTooltip(
+                `<div>
+                     Alankar Chowk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58377a79bbc3ff33fbcb55e682bfcb3c = L.marker(
+                [18.53038, 73.87666],
+                {}
+            ).addTo(map_25465cacb2a29e1646a34013bd8c153b);
+        
+    
+            var icon_0d855d58aeea19f613e81c2178ce026d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58377a79bbc3ff33fbcb55e682bfcb3c.setIcon(icon_0d855d58aeea19f613e81c2178ce026d);
+        
+    
+        var popup_b1e92489739de1c1f913bb56d032032c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066640b3fd8965aa8c01703005eecf2a = $(`<div id="html_066640b3fd8965aa8c01703005eecf2a" style="width: 100.0%; height: 100.0%;"><b>Jehangir Hospital Chowk (landmark proxy)</b></div>`)[0];
+                popup_b1e92489739de1c1f913bb56d032032c.setContent(html_066640b3fd8965aa8c01703005eecf2a);
+            
+        
+
+        marker_58377a79bbc3ff33fbcb55e682bfcb3c.bindPopup(popup_b1e92489739de1c1f913bb56d032032c)
+        ;
+
+        
+    
+    
+            marker_58377a79bbc3ff33fbcb55e682bfcb3c.bindTooltip(
+                `<div>
+                     Jehangir Hospital Chowk (landmark proxy)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb12d3cc04725b5f8f5fbed009b94b71 = L.marker(
+                [18.529529, 73.862219],
+                {}
+            ).addTo(map_25465cacb2a29e1646a34013bd8c153b);
+        
+    
+            var icon_add126163dd697fe44d822aeb2f1ee4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb12d3cc04725b5f8f5fbed009b94b71.setIcon(icon_add126163dd697fe44d822aeb2f1ee4f);
+        
+    
+        var popup_23234879355b3835cb5c3d01d9a6a959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_584fe37f56e57165812ee2bbb7be7a35 = $(`<div id="html_584fe37f56e57165812ee2bbb7be7a35" style="width: 100.0%; height: 100.0%;"><b>RTO Chowk (Sangam Bridge area)</b></div>`)[0];
+                popup_23234879355b3835cb5c3d01d9a6a959.setContent(html_584fe37f56e57165812ee2bbb7be7a35);
+            
+        
+
+        marker_bb12d3cc04725b5f8f5fbed009b94b71.bindPopup(popup_23234879355b3835cb5c3d01d9a6a959)
+        ;
+
+        
+    
+    
+            marker_bb12d3cc04725b5f8f5fbed009b94b71.bindTooltip(
+                `<div>
+                     RTO Chowk (Sangam Bridge area)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_80d3e61caa80084e4c5b9f317603f1f3 = L.rectangle(
+                [[18.52714, 73.86121899999999], [18.531380000000002, 73.87766]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_25465cacb2a29e1646a34013bd8c153b);
+        
+    
+            rectangle_80d3e61caa80084e4c5b9f317603f1f3.bindTooltip(
+                `<div>
+                     Approximate study-area extent
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_25465cacb2a29e1646a34013bd8c153b.fitBounds(
+                [[18.52714, 73.86121899999999], [18.531380000000002, 73.87766]],
+                {}
+            );
+        
+    
+            var layer_control_d82f5ec13859c1db3c0f3cb846060fde_layers = {
+                base_layers : {
+                    "Carto Light Map" : tile_layer_ea258875fbf2b7955076e329fd0dfa34,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_d82f5ec13859c1db3c0f3cb846060fde = L.control.layers(
+                layer_control_d82f5ec13859c1db3c0f3cb846060fde_layers.base_layers,
+                layer_control_d82f5ec13859c1db3c0f3cb846060fde_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_25465cacb2a29e1646a34013bd8c153b);
+
+        
+    
+            var measure_control_3307e8e4ee7d9e0b6cce8b730ba7b584 = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_25465cacb2a29e1646a34013bd8c153b.addControl(measure_control_3307e8e4ee7d9e0b6cce8b730ba7b584);
+
+            // Workaround for using this plugin with Leaflet>=1.8.0
+            // https://github.com/ljagis/leaflet-measure/issues/171
+            L.Control.Measure.include({
+                _setCaptureMarkerIcon: function () {
+                    // disable autopan
+                    this._captureMarker.options.autoPanOnFocus = false;
+                    // default function
+                    this._captureMarker.setIcon(
+                        L.divIcon({
+                            iconSize: this._map.getSize().multiplyBy(2)
+                        })
+                    );
+                },
+            });
+
+        
+</script>
+</html>

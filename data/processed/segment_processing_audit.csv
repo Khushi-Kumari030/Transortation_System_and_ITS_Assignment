@@ -1,0 +1,116 @@
+Source_File,Camera,Day,Segment,Cutoff_Time,Original_Rows,Retained_Rows,Removed_Rows,Action
+a2_11.csv,a2,11,primary,,35012,35012,0,Retained all timestamps
+a2_11_one.csv,a2,11,continuation,11:26:26,8112,8112,0,Continuation retained after gap
+a2_12.csv,a2,12,primary,,35284,35284,0,Retained all timestamps
+a2_12_one.csv,a2,12,continuation,11:27:34,7848,7844,4,Continuation clipped at primary end
+a2_13.csv,a2,13,primary,,35320,35320,0,Retained all timestamps
+a2_13_one.csv,a2,13,continuation,11:27:02,7847,7843,4,Continuation clipped at primary end
+a2_14.csv,a2,14,primary,,34944,34944,0,Retained all timestamps
+a2_14_one.csv,a2,14,continuation,11:25:28,8212,8208,4,Continuation clipped at primary end
+a2_15.csv,a2,15,primary,,35236,35236,0,Retained all timestamps
+a2_15_one.csv,a2,15,continuation,11:26:47,7908,7904,4,Continuation clipped at primary end
+a2_16.csv,a2,16,primary,,34692,34692,0,Retained all timestamps
+a2_16_one.csv,a2,16,continuation,11:24:27,8396,8392,4,Continuation clipped at primary end
+a2_17.csv,a2,17,primary,,34880,34880,0,Retained all timestamps
+a2_17_one.csv,a2,17,continuation,11:25:16,8256,8252,4,Continuation clipped at primary end
+a2_18.csv,a2,18,primary,,34912,34912,0,Retained all timestamps
+a2_18_one.csv,a2,18,continuation,11:25:24,7900,7896,4,Continuation clipped at primary end
+a3_11.csv,a3,11,primary,,35172,35172,0,Retained all timestamps
+a3_11_one.csv,a3,11,continuation,11:27:11,8004,8000,4,Continuation clipped at primary end
+a3_12.csv,a3,12,primary,,35112,35112,0,Retained all timestamps
+a3_12_one.csv,a3,12,continuation,11:26:15,7636,7632,4,Continuation clipped at primary end
+a3_13.csv,a3,13,primary,,34968,34968,0,Retained all timestamps
+a3_13_one.csv,a3,13,continuation,11:25:33,8056,8052,4,Continuation clipped at primary end
+a3_14.csv,a3,14,primary,,35044,35044,0,Retained all timestamps
+a3_14_one.csv,a3,14,continuation,11:25:58,8104,8100,4,Continuation clipped at primary end
+a3_15.csv,a3,15,primary,,35320,35320,0,Retained all timestamps
+a3_15_one.csv,a3,15,continuation,11:27:07,7792,7788,4,Continuation clipped at primary end
+a3_16.csv,a3,16,primary,,34564,34564,0,Retained all timestamps
+a3_16_one.csv,a3,16,continuation,11:23:57,8252,8248,4,Continuation clipped at primary end
+a3_17.csv,a3,17,primary,,35124,35124,0,Retained all timestamps
+a3_17_one.csv,a3,17,continuation,11:26:14,7852,7848,4,Continuation clipped at primary end
+a3_18.csv,a3,18,primary,,35080,35080,0,Retained all timestamps
+a3_18_one.csv,a3,18,continuation,11:26:04,7716,7712,4,Continuation clipped at primary end
+j1_11.csv,j1,11,primary,,35480,35480,0,Retained all timestamps
+j1_11_one.csv,j1,11,continuation,11:27:46,8048,7592,456,Continuation clipped at primary end
+j1_12.csv,j1,12,primary,,35152,35152,0,Retained all timestamps
+j1_12_one.csv,j1,12,continuation,11:26:24,7988,7988,0,Continuation retained after gap
+j1_13.csv,j1,13,primary,,35328,35328,0,Retained all timestamps
+j1_13_one.csv,j1,13,continuation,11:27:04,7700,7700,0,Continuation retained after gap
+j1_14.csv,j1,14,primary,,36180,36180,0,Retained all timestamps
+j1_14_one.csv,j1,14,continuation,11:30:37,8436,7032,1404,Continuation clipped at primary end
+j1_15.csv,j1,15,primary,,35056,35056,0,Retained all timestamps
+j1_15_one.csv,j1,15,continuation,11:26:00,8100,8100,0,Continuation retained after gap
+j1_16.csv,j1,16,primary,,35216,35216,0,Retained all timestamps
+j1_16_one.csv,j1,16,continuation,11:26:37,7912,7912,0,Continuation retained after gap
+j1_17.csv,j1,17,primary,,35092,35092,0,Retained all timestamps
+j1_17_one.csv,j1,17,continuation,11:26:08,8032,8032,0,Continuation retained after gap
+j1_18.csv,j1,18,primary,,34240,34240,0,Retained all timestamps
+j1_18_one.csv,j1,18,continuation,11:22:33,8228,8228,0,Continuation retained after gap
+j2_11.csv,j2,11,primary,,34636,34636,0,Retained all timestamps
+j2_11_one.csv,j2,11,continuation,11:24:12,8392,8388,4,Continuation clipped at primary end
+j2_12.csv,j2,12,primary,,35276,35276,0,Retained all timestamps
+j2_12_one.csv,j2,12,continuation,11:26:17,7820,7816,4,Continuation clipped at primary end
+j2_13.csv,j2,13,primary,,35188,35188,0,Retained all timestamps
+j2_13_one.csv,j2,13,continuation,11:26:32,7836,7832,4,Continuation clipped at primary end
+j2_14.csv,j2,14,primary,,34864,34864,0,Retained all timestamps
+j2_14_one.csv,j2,14,continuation,11:24:34,8276,8272,4,Continuation clipped at primary end
+j2_15.csv,j2,15,primary,,35192,35192,0,Retained all timestamps
+j2_15_one.csv,j2,15,continuation,11:25:57,7956,7952,4,Continuation clipped at primary end
+j2_16.csv,j2,16,primary,,35028,35028,0,Retained all timestamps
+j2_16_one.csv,j2,16,continuation,11:25:18,8000,7996,4,Continuation clipped at primary end
+j2_17.csv,j2,17,primary,,35232,35232,0,Retained all timestamps
+j2_17_one.csv,j2,17,continuation,11:26:10,7768,7764,4,Continuation clipped at primary end
+j2_18.csv,j2,18,primary,,35304,35304,0,Retained all timestamps
+j2_18_one.csv,j2,18,continuation,11:26:28,7532,7528,4,Continuation clipped at primary end
+j3_11.csv,j3,11,primary,,43692,43692,0,Retained all timestamps
+j3_12.csv,j3,12,primary,,43692,43692,0,Retained all timestamps
+j3_13.csv,j3,13,primary,,43692,43692,0,Retained all timestamps
+j3_14.csv,j3,14,primary,,34920,34920,0,Retained all timestamps
+j3_14_one.csv,j3,14,continuation,11:25:26,8168,8164,4,Continuation clipped at primary end
+j3_15.csv,j3,15,primary,,35444,35444,0,Retained all timestamps
+j3_15_one.csv,j3,15,continuation,11:27:38,7648,7644,4,Continuation clipped at primary end
+j3_16.csv,j3,16,primary,,35648,35648,0,Retained all timestamps
+j3_16_one.csv,j3,16,continuation,11:28:30,7380,7376,4,Continuation clipped at primary end
+j3_17.csv,j3,17,primary,,43692,43692,0,Retained all timestamps
+j3_18.csv,j3,18,primary,,43692,43692,0,Retained all timestamps
+r1_11.csv,r1,11,primary,,34684,34684,0,Retained all timestamps
+r1_11_one.csv,r1,11,continuation,11:24:36,7984,7980,4,Continuation clipped at primary end
+r1_12.csv,r1,12,primary,,35336,35336,0,Retained all timestamps
+r1_12_one.csv,r1,12,continuation,11:27:06,7668,7664,4,Continuation clipped at primary end
+r1_13.csv,r1,13,primary,,34572,34572,0,Retained all timestamps
+r1_13_one.csv,r1,13,continuation,11:23:59,8264,8260,4,Continuation clipped at primary end
+r1_14.csv,r1,14,primary,,34512,34512,0,Retained all timestamps
+r1_14_one.csv,r1,14,continuation,11:23:43,8328,8324,4,Continuation clipped at primary end
+r1_15.csv,r1,15,primary,,34552,34552,0,Retained all timestamps
+r1_15_one.csv,r1,15,continuation,11:23:54,8312,8308,4,Continuation clipped at primary end
+r1_16.csv,r1,16,primary,,34756,34756,0,Retained all timestamps
+r1_16_one.csv,r1,16,continuation,11:24:41,8276,8272,4,Continuation clipped at primary end
+r1_17.csv,r1,17,primary,,35732,35732,0,Retained all timestamps
+r1_17_one.csv,r1,17,continuation,11:28:49,7892,7888,4,Continuation clipped at primary end
+r1_18.csv,r1,18,primary,,35688,35688,0,Retained all timestamps
+r1_18_one.csv,r1,18,continuation,11:28:34,7720,7716,4,Continuation clipped at primary end
+r2_11.csv,r2,11,primary,,34988,34988,0,Retained all timestamps
+r2_11_one.csv,r2,11,continuation,11:25:40,8380,8376,4,Continuation clipped at primary end
+r2_12.csv,r2,12,primary,,35104,35104,0,Retained all timestamps
+r2_12_one.csv,r2,12,continuation,11:26:10,8008,8004,4,Continuation clipped at primary end
+r2_13.csv,r2,13,primary,,34804,34804,0,Retained all timestamps
+r2_13_one.csv,r2,13,continuation,11:24:56,8008,8004,4,Continuation clipped at primary end
+r2_14.csv,r2,14,primary,,35076,35076,0,Retained all timestamps
+r2_14_one.csv,r2,14,continuation,11:26:05,7944,7940,4,Continuation clipped at primary end
+r2_15.csv,r2,15,primary,,34856,34856,0,Retained all timestamps
+r2_15_one.csv,r2,15,continuation,11:25:10,8276,8272,4,Continuation clipped at primary end
+r2_16.csv,r2,16,primary,,35420,35420,0,Retained all timestamps
+r2_16_one.csv,r2,16,continuation,11:27:27,7624,7620,4,Continuation clipped at primary end
+r2_17.csv,r2,17,primary,,35188,35188,0,Retained all timestamps
+r2_17_one.csv,r2,17,continuation,11:26:30,7716,7712,4,Continuation clipped at primary end
+r2_18.csv,r2,18,primary,,35768,35768,0,Retained all timestamps
+r2_18_one.csv,r2,18,continuation,11:28:56,7808,7804,4,Continuation clipped at primary end
+r3_11.csv,r3,11,primary,,43868,43868,0,Retained all timestamps
+r3_12.csv,r3,12,primary,,43692,43692,0,Retained all timestamps
+r3_13.csv,r3,13,primary,,43692,43692,0,Retained all timestamps
+r3_14.csv,r3,14,primary,,43692,43692,0,Retained all timestamps
+r3_15.csv,r3,15,primary,,43692,43692,0,Retained all timestamps
+r3_16.csv,r3,16,primary,,42552,42552,0,Retained all timestamps
+r3_17.csv,r3,17,primary,,43692,43692,0,Retained all timestamps
+r3_18.csv,r3,18,primary,,43700,43700,0,Retained all timestamps

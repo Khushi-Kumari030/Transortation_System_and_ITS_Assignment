@@ -1,0 +1,5 @@
+Scenario,Factor_Set,Total_Vehicles,Total_PCU
+A_All_Cameras,IRC_SP41,470190.0,500476.5
+A_All_Cameras,IRC106_High_Composition,470190.0,586753.5499999997
+B_Exclude_a3_UP,IRC_SP41,411442.0,438624.5
+B_Exclude_a3_UP,IRC106_High_Composition,411442.0,522903.9500000002

@@ -1,0 +1,14 @@
+# Large intermediate files — retain locally, do not push
+data/processed/corrected_vehicle_arrivals.csv
+data/processed/per_second_counts_by_file.csv
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and temporary files
+.vscode/
+.ipynb_checkpoints/
+.DS_Store

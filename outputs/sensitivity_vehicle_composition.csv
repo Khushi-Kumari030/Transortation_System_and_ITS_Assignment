@@ -1,0 +1,9 @@
+Scenario,Vehicle_Class,Count,Share_Percent
+A_All_Cameras,car,232468.0,49.441289691401344
+A_All_Cameras,motorbike,178063.0,37.870435355919945
+A_All_Cameras,bus,20432.0,4.345477360216083
+A_All_Cameras,truck,39227.0,8.34279759246262
+B_Exclude_a3_UP,car,177952.0,43.25081056382187
+B_Exclude_a3_UP,motorbike,175919.0,42.75669474676868
+B_Exclude_a3_UP,bus,19187.0,4.66335473772731
+B_Exclude_a3_UP,truck,38384.0,9.329139951682134

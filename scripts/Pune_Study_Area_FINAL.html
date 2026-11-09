@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8025a3a3723a0756579b416063e88e5e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8025a3a3723a0756579b416063e88e5e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8025a3a3723a0756579b416063e88e5e = L.map(
+                "map_8025a3a3723a0756579b416063e88e5e",
+                {
+                    center: [18.5295, 73.8695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_8025a3a3723a0756579b416063e88e5e);
+
+            
+
+        
+    
+            var tile_layer_a7b89f635c2fea5a6ec443b2a2dbd19a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; OpenStreetMap contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": ["a", "b", "c"], "tms": false}
+            );
+        
+    
+            tile_layer_a7b89f635c2fea5a6ec443b2a2dbd19a.addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var marker_5ca300d02a0a9996501e0d9684ddd0a2 = L.marker(
+                [18.52814, 73.875929],
+                {}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var icon_1eb726e8a7f7a0f1af46041bf7e5718b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ca300d02a0a9996501e0d9684ddd0a2.setIcon(icon_1eb726e8a7f7a0f1af46041bf7e5718b);
+        
+    
+        var popup_3129e50a570bd152bdc9b4c99aa829bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54946a09799a775d0df76b2413cc9364 = $(`<div id="html_54946a09799a775d0df76b2413cc9364" style="width: 100.0%; height: 100.0%;"><b>Alankar Chowk</b></div>`)[0];
+                popup_3129e50a570bd152bdc9b4c99aa829bf.setContent(html_54946a09799a775d0df76b2413cc9364);
+            
+        
+
+        marker_5ca300d02a0a9996501e0d9684ddd0a2.bindPopup(popup_3129e50a570bd152bdc9b4c99aa829bf)
+        ;
+
+        
+    
+    
+            marker_5ca300d02a0a9996501e0d9684ddd0a2.bindTooltip(
+                `<div>
+                     Alankar Chowk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9915d9763ecdb262a88fb5fea3ce6aa4 = L.marker(
+                [18.52814, 73.875929],
+                {}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var div_icon_40145a233450d377d0b7c34428688676 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                color: #111827;\n                background: white;\n                border: 1px solid #333;\n                border-radius: 5px;\n                padding: 5px 8px;\n                width: 190px;\n                box-shadow: 1px 1px 4px #777;\n                white-space: normal;\n            \"\u003e\n                Alankar Chowk\n            \u003c/div\u003e\n            ", "iconAnchor": [-10, 15], "iconSize": [200, 40]});
+            marker_9915d9763ecdb262a88fb5fea3ce6aa4.setIcon(div_icon_40145a233450d377d0b7c34428688676);
+        
+    
+            var marker_8530f56c636dd12a5a706e77012b5d58 = L.marker(
+                [18.53038, 73.87666],
+                {}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var icon_009d8871b30c2d84e53134e5c51cfd14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8530f56c636dd12a5a706e77012b5d58.setIcon(icon_009d8871b30c2d84e53134e5c51cfd14);
+        
+    
+        var popup_a3e0ec36431be006af4c8af9ed0bf1ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07c96bf766a679764bc292692eae30d4 = $(`<div id="html_07c96bf766a679764bc292692eae30d4" style="width: 100.0%; height: 100.0%;"><b>Jehangir Hospital Chowk</b></div>`)[0];
+                popup_a3e0ec36431be006af4c8af9ed0bf1ea.setContent(html_07c96bf766a679764bc292692eae30d4);
+            
+        
+
+        marker_8530f56c636dd12a5a706e77012b5d58.bindPopup(popup_a3e0ec36431be006af4c8af9ed0bf1ea)
+        ;
+
+        
+    
+    
+            marker_8530f56c636dd12a5a706e77012b5d58.bindTooltip(
+                `<div>
+                     Jehangir Hospital Chowk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc7cfac2e60572346f4952302907ab05 = L.marker(
+                [18.53038, 73.87666],
+                {}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var div_icon_8a8dbf6ecf52c1f5687a17137b14e28b = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                color: #111827;\n                background: white;\n                border: 1px solid #333;\n                border-radius: 5px;\n                padding: 5px 8px;\n                width: 190px;\n                box-shadow: 1px 1px 4px #777;\n                white-space: normal;\n            \"\u003e\n                Jehangir Hospital Chowk\n            \u003c/div\u003e\n            ", "iconAnchor": [-10, 15], "iconSize": [200, 40]});
+            marker_cc7cfac2e60572346f4952302907ab05.setIcon(div_icon_8a8dbf6ecf52c1f5687a17137b14e28b);
+        
+    
+            var marker_7d905be1faf8d90f5780a0f1f116dad9 = L.marker(
+                [18.529529, 73.862219],
+                {}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var icon_2c02f1a3efaad7d0459828c09ee1e056 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d905be1faf8d90f5780a0f1f116dad9.setIcon(icon_2c02f1a3efaad7d0459828c09ee1e056);
+        
+    
+        var popup_0753a6c471d9252fa0c54e5dddb55bab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2843a82d162f691f311c45f7b557522f = $(`<div id="html_2843a82d162f691f311c45f7b557522f" style="width: 100.0%; height: 100.0%;"><b>RTO Chowk - Sangam Bridge</b></div>`)[0];
+                popup_0753a6c471d9252fa0c54e5dddb55bab.setContent(html_2843a82d162f691f311c45f7b557522f);
+            
+        
+
+        marker_7d905be1faf8d90f5780a0f1f116dad9.bindPopup(popup_0753a6c471d9252fa0c54e5dddb55bab)
+        ;
+
+        
+    
+    
+            marker_7d905be1faf8d90f5780a0f1f116dad9.bindTooltip(
+                `<div>
+                     RTO Chowk - Sangam Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_568ac2191dd0f0d07f0b3406714b26cc = L.marker(
+                [18.529529, 73.862219],
+                {}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            var div_icon_1050595a33a0a609b7ba162ff7468fbd = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"\n                font-size: 13px;\n                font-weight: bold;\n                color: #111827;\n                background: white;\n                border: 1px solid #333;\n                border-radius: 5px;\n                padding: 5px 8px;\n                width: 190px;\n                box-shadow: 1px 1px 4px #777;\n                white-space: normal;\n            \"\u003e\n                RTO Chowk - Sangam Bridge\n            \u003c/div\u003e\n            ", "iconAnchor": [-10, 15], "iconSize": [200, 40]});
+            marker_568ac2191dd0f0d07f0b3406714b26cc.setIcon(div_icon_1050595a33a0a609b7ba162ff7468fbd);
+        
+    
+            var rectangle_b9424e1f4d81421335991e8120beb87d = L.rectangle(
+                [[18.52714, 73.86121899999999], [18.531380000000002, 73.87766]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.07, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+        
+    
+            rectangle_b9424e1f4d81421335991e8120beb87d.bindTooltip(
+                `<div>
+                     Approximate study-area extent
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_8025a3a3723a0756579b416063e88e5e.fitBounds(
+                [[18.52714, 73.86121899999999], [18.531380000000002, 73.87766]],
+                {}
+            );
+        
+    
+            var layer_control_d09bed7f307a13b8e4ff951d65dd0ccd_layers = {
+                base_layers : {
+                    "OpenStreetMap" : tile_layer_a7b89f635c2fea5a6ec443b2a2dbd19a,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_d09bed7f307a13b8e4ff951d65dd0ccd = L.control.layers(
+                layer_control_d09bed7f307a13b8e4ff951d65dd0ccd_layers.base_layers,
+                layer_control_d09bed7f307a13b8e4ff951d65dd0ccd_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_8025a3a3723a0756579b416063e88e5e);
+
+        
+    
+            var measure_control_08780e6b5ad06b8cc9cc258c7f092667 = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_8025a3a3723a0756579b416063e88e5e.addControl(measure_control_08780e6b5ad06b8cc9cc258c7f092667);
+
+            // Workaround for using this plugin with Leaflet>=1.8.0
+            // https://github.com/ljagis/leaflet-measure/issues/171
+            L.Control.Measure.include({
+                _setCaptureMarkerIcon: function () {
+                    // disable autopan
+                    this._captureMarker.options.autoPanOnFocus = false;
+                    // default function
+                    this._captureMarker.setIcon(
+                        L.divIcon({
+                            iconSize: this._map.getSize().multiplyBy(2)
+                        })
+                    );
+                },
+            });
+
+        
+</script>
+</html>

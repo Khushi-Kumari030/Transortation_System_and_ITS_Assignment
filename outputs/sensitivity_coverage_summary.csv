@@ -1,0 +1,3 @@
+Scenario,Eligible_Intervals,Mean_Coverage
+A_All_Cameras,2964,99.9026465736992
+B_Exclude_a3_UP,2873,99.90269559500328
