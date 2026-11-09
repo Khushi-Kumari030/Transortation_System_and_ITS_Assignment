@@ -1,7 +1,8 @@
 # Performance Evaluation of Pune's Heterogeneous Traffic: A Camera-Based Study
 
 **Course:** CE60134 – Analysis and Evaluation of Transportation Systems  
-**Project:** Performance Evaluation of an Urban Transportation System and Assessment of ITS Interventions  
+**Assignment:** Performance Evaluation of an Urban Transportation System and Assessment of ITS Interventions 
+**Course Instructor:** Prof. Nandan Maiti, Department of Civil Engineering, IIT Kharagpur 
 **Study area:** Alankar Chowk, Jehangir Chowk and RTO Chowk, Pune, Maharashtra, India  
 **Study period:** 11–18 January 2023
 
